@@ -1,9 +1,15 @@
 import regex
 import requests
+import pyfiglet
 from bs4 import BeautifulSoup
 
+print('#'*71)
+print(pyfiglet.figlet_format('Currency gold coin prices', font='slant'))
+print('Made by Ali Hosseinverdi')
+print('#'*71)
+
 def results():
-        user = input('What currency(or coin or gold) do you want to know the price ?(write "table" for show the table) :\n')
+        user = input('\nWhat currency(or coin or gold) do you want to know the price ?(write "table" for show the table) :\n')
     
         site = requests.get("https://api.sunnyweb.ir/arz")
         text = site.text
