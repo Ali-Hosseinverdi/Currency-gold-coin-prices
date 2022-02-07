@@ -13,10 +13,12 @@ This program shows you the live prices of coins, gold and currency
 
 ## Installation
   
-First, make sure you have Python3 and pip installed. Then go to the program directory and run the following command in the terminall or command line:
+First, make sure you have Python3 and pip and git installed. Then run the following command in the terminall or command line:
 
 ``` bash
-pip3 install requirements.txt
+git clone https://github.com/Ali-Hosseinverdi/Currency-gold-coin-prices.git
+cd Currency-gold-coin-prices
+pip3 install -r requirements.txt
 ```
   
 ## Usage
